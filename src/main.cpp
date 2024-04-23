@@ -2,15 +2,19 @@
 //baza osob
 //baza sprzetu
 //baza wypozyczen
-
-
-#include "include/Wypozyczenia.h"
-#include "include/Sprzet.h"
+#include <vector>
+#include <string>
+#include <fstream>
 #include "include/Osoba.h"
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    cout<<"hello world";
+  
+    fstream plik;
+    plik.open("dane.txt",std::ios::out);
+    {
+
+    }
 }
