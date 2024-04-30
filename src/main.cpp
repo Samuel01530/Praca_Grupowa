@@ -2,6 +2,7 @@
 //baza osob
 //baza sprzetu
 //baza wypozyczen
+//test
 #include <vector>
 #include <string>
 #include <fstream>
