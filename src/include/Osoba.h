@@ -6,13 +6,18 @@
 using namespace std;
 
 class Osoba{
-public:
-Osoba();
-Osoba(int,string,string);
-private:
+    private:
 int id;
 string imie;
 string nazwisko;
+int pesel;
+public:
+Osoba();
+Osoba(int,string,string,int);
+int get_id();
+string get_imie();
+string get_nazwisko();
+int get_pesel();
 
 
 };
