@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
 
-
+Osoba MyO;
     fstream plik;
     plik.open("dane.txt",std::ios::in);
     {
@@ -26,18 +26,19 @@ int main()
         int temppesel;
     while(plik.eof()==false)
     {
+    
         plik>>tempid;
-
+cout<<tempid<<" ";
      plik>>tempimie;
-     
+     cout<<tempimie<<" ";
     
 
      plik>>tempnazw;
-     
+     cout<<tempnazw<<" ";
      
 
      plik>>temppesel;
-     
+     cout<<temppesel<<endl;
      
 Osoba MyOsoba =* new  Osoba(tempid,tempimie,tempnazw,temppesel);
 zaza.push_back(MyOsoba.get_id());
