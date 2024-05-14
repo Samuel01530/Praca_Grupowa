@@ -4,13 +4,13 @@
 #include <iostream>
 using namespace std;
 
-Osoba :: Osoba()
+Osoba ::Osoba()
 {
     id = -1;
     imie = "brak imienia";
     nazwisko = "brak nazwiska";
 }
-Osoba :: Osoba(int _id,string _imie, string _nazwisko, int _pesel)
+Osoba ::Osoba(int _id, string _imie, string _nazwisko, int _pesel)
 {
     id = _id;
     imie = _imie;
